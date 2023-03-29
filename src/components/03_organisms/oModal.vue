@@ -26,6 +26,11 @@ import aHeaderElement from '@/components/01_atoms/aHeaderElement.vue';
 import aFormfield from '@/components/01_atoms/aFormfield.vue';
 import aFooterElement from '@/components/01_atoms/aFooterElement.vue';
 
+/**
+ * TODO: oModal is designed to work only for adding element. Instead 
+ * create mAddElementModal.vue and use it here depending on the modal needed.
+ * create mDeleteElementModal.vue and use for element delete confirmation.   
+*/
 export default Vue.extend({
   name: 'oModal',
   components: {
